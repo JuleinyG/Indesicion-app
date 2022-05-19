@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<Indecision />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Indecision from './components/indecision.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: { 
+    Indecision,
+    }
+  
   }
-}
 </script>
 
 <style>
@@ -26,3 +24,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+ 
